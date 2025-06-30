@@ -98,3 +98,103 @@ body, html {
     text-align: center;
 
 }
+body, html {
+    height: 130%;
+    padding: 5px;
+    background-color:rgb(212, 231, 247);
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/Restaurant\ view.webp);
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px;
+} 
+
+.cabecalho{
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.bodyImage{
+    height: 50%;
+    background-image: url(assets/Cheffes.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+
+.Pedido{
+    background-color: rgb(192, 187, 187);
+    padding: 40px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.text-pedido{
+    background-color: orangered;
+    padding: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 0px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu{
+    background-color: rgb(59, 104, 134);
+    text-align: center;
+    display: inline-block;
+    padding: 75px;
+    width: fit-content;
+    position: absolute;
+    top: 0%;
+}
+
+.historia{
+    background-color: rgb(10, 36, 58);
+    padding: 100px;
+}
+
+.historia h3{
+    color: white;
+}
+
+
+.rodape{
+    background-color: white;
+    padding: 80px;
+    text-align: center;
+
+}
